@@ -66,14 +66,14 @@ export default function ArtifactArmouryWebsite() {
 
       {/* Product Showcase with Images */}
       <section id="products" className="px-4 md:px-8 py-12">
-        <h3 className="text-2xl font-semibold mb-4">Product Showcase</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <img src="/images/ww2_UK_commando_kneeling_side_Sgtmiller.jpeg" alt="UK Commando" className="rounded shadow-md" />
-          <img src="/images/ww2_GER_infantry_firing_front_Oberhans.jpeg" alt="GER Infantry" className="rounded shadow-md" />
-          <img src="/images/ww2_USSR_rifleman_prone_top_Ivan.jpeg" alt="USSR Rifleman" className="rounded shadow-md" />
-          <img src="/images/napoleonic_FR_dragoon_charging_side_Pierre.jpeg" alt="French Dragoon" className="rounded shadow-md" />
-        </div>
-      </section>
+  <h3 className="text-2xl font-semibold mb-4">Product Showcase</h3>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <img src="/images/ww2_uk_commando_demo1.jpeg" alt="UK Commando" className="rounded shadow-md" />
+    <img src="/images/ww2_ger_infantry_demo2.jpeg" alt="GER Infantry" className="rounded shadow-md" />
+    <img src="/images/ww2_ussr_rifleman_demo3.jpeg" alt="USSR Rifleman" className="rounded shadow-md" />
+    <img src="/images/napoleonic_fr_dragoon_demo4.jpeg" alt="French Dragoon" className="rounded shadow-md" />
+  </div>
+</section>
 
       {/* Kickstarter Section */}
       <section id="kickstarter" className="px-4 md:px-8 py-12">
