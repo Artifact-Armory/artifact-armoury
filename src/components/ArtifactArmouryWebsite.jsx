@@ -34,10 +34,21 @@ export default function ArtifactArmouryWebsite() {
         )}
       </header>
 
-      {/* Hero Section */}
-      <section id="home" className="px-4 md:px-8 py-12 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Hyper-Realistic Historical Miniatures</h2>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto">Crafted from real-life scans of reenactors, bringing history to your tabletop with unparalleled realism.</p>
+      {/* Hero Section with Banner */}
+      <section id="home" className="relative w-full">
+        <img
+          src="/images/banner.jpeg"
+          alt="Artifact Armoury Banner"
+          className="w-full h-[300px] object-cover md:h-[400px]"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-2">Hyper-Realistic Historical Miniatures</h2>
+            <p className="text-lg md:text-xl max-w-2xl mx-auto">
+              Crafted from real-life scans of reenactors, bringing history to your tabletop.
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* Scroll to Top Button */}
@@ -47,26 +58,30 @@ export default function ArtifactArmouryWebsite() {
         ↑
       </button>
 
-      {/* Placeholder for Future Sections */}
+      {/* About Section */}
       <section id="about" className="px-4 md:px-8 py-12">
         <h3 className="text-2xl font-semibold mb-4">About Us</h3>
         <p className="text-base md:text-lg">More details coming soon about our story, team, and historical scanning process.</p>
       </section>
 
+      {/* Product Showcase with Images */}
       <section id="products" className="px-4 md:px-8 py-12">
         <h3 className="text-2xl font-semibold mb-4">Product Showcase</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-gray-100 dark:bg-gray-700 aspect-[4/3] animate-pulse rounded-md" />
-          <div className="bg-gray-100 dark:bg-gray-700 aspect-[4/3] animate-pulse rounded-md" />
-          <div className="bg-gray-100 dark:bg-gray-700 aspect-[4/3] animate-pulse rounded-md" />
+          <img src="/images/ww2_UK_commando_kneeling_side_Sgtmiller.jpeg" alt="UK Commando" className="rounded shadow-md" />
+          <img src="/images/ww2_GER_infantry_firing_front_Oberhans.jpeg" alt="GER Infantry" className="rounded shadow-md" />
+          <img src="/images/ww2_USSR_rifleman_prone_top_Ivan.jpeg" alt="USSR Rifleman" className="rounded shadow-md" />
+          <img src="/images/napoleonic_FR_dragoon_charging_side_Pierre.jpeg" alt="French Dragoon" className="rounded shadow-md" />
         </div>
       </section>
 
+      {/* Kickstarter Section */}
       <section id="kickstarter" className="px-4 md:px-8 py-12">
         <h3 className="text-2xl font-semibold mb-4">Kickstarter Coming Soon</h3>
         <p className="text-base md:text-lg">Sign up for our newsletter to be the first to know when we launch!</p>
       </section>
 
+      {/* Contact Section */}
       <section id="contact" className="px-4 md:px-8 py-12">
         <h3 className="text-2xl font-semibold mb-4">Contact Us</h3>
         <form className="space-y-4 max-w-lg">
